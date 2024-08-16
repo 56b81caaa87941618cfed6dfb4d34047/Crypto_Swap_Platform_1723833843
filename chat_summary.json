@@ -12,5 +12,11 @@
         "content": "replace all this content with a form for submitted node operator signup info and stake",
         "timestamp": "16082024184423",
         "message_id": "guest16082024184423"
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "Got it, working on creating a form for node operator signup.",
+        "timestamp": "16082024184424",
+        "message_id": "guest16082024184423"
     }
 ]
