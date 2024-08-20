@@ -13,15 +13,81 @@ If the user asks you to insert components left and right of each other, first wr
 */
 Vue.component("blank_component_1724180203", {
     template: `
-        <div>
-            <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-            <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-            <section id="blank-section" class="bg-white dark:bg-gray-900 flex-1">
-                <div id="blank-container" class="max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
-
+        <section class="bg-purple-900 text-white p-8 space-y-8">
+    <div class="max-w-lg mx-auto">
+        <h1 class="text-3xl font-bold mb-6 text-center">Aave Contract Interaction</h1>
+        
+        <!-- Deposit Section -->
+        <div class="bg-purple-800 p-6 rounded-lg shadow-lg">
+            <h2 class="text-xl font-semibold mb-4">Deposit</h2>
+            <form>
+                <div class="mb-4">
+                    <label for="depositAsset" class="block text-sm font-medium">Asset Address</label>
+                    <input type="text" id="depositAsset" class="w-full p-2 rounded bg-purple-700 border border-purple-600 focus:outline-none" placeholder="Enter asset address">
                 </div>
-            </section>  
-        </div>          
+                <div class="mb-4">
+                    <label for="depositAmount" class="block text-sm font-medium">Amount</label>
+                    <input type="number" id="depositAmount" class="w-full p-2 rounded bg-purple-700 border border-purple-600 focus:outline-none" placeholder="Enter amount">
+                </div>
+                <div class="mb-4">
+                    <label for="onBehalfOf" class="block text-sm font-medium">On Behalf Of</label>
+                    <input type="text" id="onBehalfOf" class="w-full p-2 rounded bg-purple-700 border border-purple-600 focus:outline-none" placeholder="Enter address">
+                </div>
+                <button type="submit" class="w-full p-2 rounded bg-purple-600 hover:bg-purple-500">Deposit</button>
+            </form>
+        </div>
+
+        <!-- Withdraw Section -->
+        <div class="bg-purple-800 p-6 rounded-lg shadow-lg">
+            <h2 class="text-xl font-semibold mb-4">Withdraw</h2>
+            <form>
+                <div class="mb-4">
+                    <label for="withdrawAsset" class="block text-sm font-medium">Asset Address</label>
+                    <input type="text" id="withdrawAsset" class="w-full p-2 rounded bg-purple-700 border border-purple-600 focus:outline-none" placeholder="Enter asset address">
+                </div>
+                <div class="mb-4">
+                    <label for="withdrawAmount" class="block text-sm font-medium">Amount</label>
+                    <input type="number" id="withdrawAmount" class="w-full p-2 rounded bg-purple-700 border border-purple-600 focus:outline-none" placeholder="Enter amount">
+                </div>
+                <button type="submit" class="w-full p-2 rounded bg-purple-600 hover:bg-purple-500">Withdraw</button>
+            </form>
+        </div>
+
+        <!-- Borrow Section -->
+        <div class="bg-purple-800 p-6 rounded-lg shadow-lg">
+            <h2 class="text-xl font-semibold mb-4">Borrow</h2>
+            <form>
+                <div class="mb-4">
+                    <label for="borrowAsset" class="block text-sm font-medium">Asset Address</label>
+                    <input type="text" id="borrowAsset" class="w-full p-2 rounded bg-purple-700 border border-purple-600 focus:outline-none" placeholder="Enter asset address">
+                </div>
+                <div class="mb-4">
+                    <label for="borrowAmount" class="block text-sm font-medium">Amount</label>
+                    <input type="number" id="borrowAmount" class="w-full p-2 rounded bg-purple-700 border border-purple-600 focus:outline-none" placeholder="Enter amount">
+                </div>
+                <div class="mb-4">
+                    <label for="interestRateMode" class="block text-sm font-medium">Interest Rate Mode</label>
+                    <select id="interestRateMode" class="w-full p-2 rounded bg-purple-700 border border-purple-600 focus:outline-none">
+                        <option value="1">Stable</option>
+                        <option value="2">Variable</option>
+                    </select>
+                </div>
+                <div class="mb-4">
+                    <label for="borrowOnBehalfOf" class="block text-sm font-medium">On Behalf Of</label>
+                    <input type="text" id="borrowOnBehalfOf" class="w-full p-2 rounded bg-purple-700 border border-purple-600 focus:outline-none" placeholder="Enter address">
+                </div>
+                <button type="submit" class="w-full p-2 rounded bg-purple-600 hover:bg-purple-500">Borrow</button>
+            </form>
+        </div>
+
+        <!-- Repay Section -->
+        <div class="bg-purple-800 p-6 rounded-lg shadow-lg">
+            <h2 class="text-xl font-semibold mb-4">Repay</h2>
+            <form>
+                <div class="mb-4">
+                    <label for="repayAsset" class="block text-sm font-medium">Asset Address</label>
+                    <input type="text" id="repayAsset" class="w-full p-2 rounded bg-purple-700 border border-purple-600 focus:outline-none" placeholder
+
     `,
     data() {
         return {
