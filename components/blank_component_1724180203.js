@@ -23,7 +23,7 @@ Vue.component("blank_component_1724180203", {
             <form>
                 <div class="mb-4">
                     <label for="depositAsset" class="block text-sm font-medium">Asset Address</label>
-                    <input type="text" id="depositAsset" class="w-full p-2 rounded bg-purple-700 border border-purple-600 focus:outline-none" placeholder="Enter asset address">
+                    <input type="text" id="depositAsset" class="w-full p-2 rounded bg-purple-700 border border-purple-600 focus:outline-none" placeholder="ETH: 0x..., USDC: 0x..., DAI: 0x...">
                 </div>
                 <div class="mb-4">
                     <label for="depositAmount" class="block text-sm font-medium">Amount</label>
@@ -43,7 +43,7 @@ Vue.component("blank_component_1724180203", {
             <form>
                 <div class="mb-4">
                     <label for="withdrawAsset" class="block text-sm font-medium">Asset Address</label>
-                    <input type="text" id="withdrawAsset" class="w-full p-2 rounded bg-purple-700 border border-purple-600 focus:outline-none" placeholder="Enter asset address">
+                    <input type="text" id="withdrawAsset" class="w-full p-2 rounded bg-purple-700 border border-purple-600 focus:outline-none" placeholder="ETH: 0x..., USDC: 0x..., DAI: 0x...">
                 </div>
                 <div class="mb-4">
                     <label for="withdrawAmount" class="block text-sm font-medium">Amount</label>
@@ -59,7 +59,7 @@ Vue.component("blank_component_1724180203", {
             <form>
                 <div class="mb-4">
                     <label for="borrowAsset" class="block text-sm font-medium">Asset Address</label>
-                    <input type="text" id="borrowAsset" class="w-full p-2 rounded bg-purple-700 border border-purple-600 focus:outline-none" placeholder="Enter asset address">
+                    <input type="text" id="borrowAsset" class="w-full p-2 rounded bg-purple-700 border border-purple-600 focus:outline-none" placeholder="ETH: 0x..., USDC: 0x..., DAI: 0x...">
                 </div>
                 <div class="mb-4">
                     <label for="borrowAmount" class="block text-sm font-medium">Amount</label>
@@ -86,7 +86,7 @@ Vue.component("blank_component_1724180203", {
             <form>
                 <div class="mb-4">
                     <label for="repayAsset" class="block text-sm font-medium">Asset Address</label>
-                    <input type="text" id="repayAsset" class="w-full p-2 rounded bg-purple-700 border border-purple-600 focus:outline-none" placeholder
+                    <input type="text" id="repayAsset" class="w-full p-2 rounded bg-purple-700 border border-purple-600 focus:outline-none" placeholder="ETH: 0x..., USDC: 0x..., DAI: 0x...">
 
     `,
     data() {
