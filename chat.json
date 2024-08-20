@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Implement an auto-suggest feature for asset input fields to help users quickly find and select tokens\", \"checked\": true}, {\"feature\": \"Add a 'Favorites' section in the dropdown for users to save and quickly access preferred tokens\", \"checked\": false}, {\"feature\": \"Incorporate a search bar within the dropdown menu for easier navigation and selection of tokens\", \"checked\": true}, {\"feature\": \"Implement a recent selection history for quicker re-selection of previously used tokens\", \"checked\": false}, {\"feature\": \"Add tooltips or information icons next to each asset input for explaining token details or requirements\", \"checked\": true}, {\"feature\": \"Provide a feature to allow users to add custom tokens that might not be listed in the dropdown\", \"checked\": false}], \"input_token_count\": 300, \"output_token_count\": 173, \"time_taken\": \"0:00:04.896842\"}",
+        "message_id": "guest20082024190657",
+        "timestamp": "20082024190703",
+        "component_file_name": "blank_component_1724180203",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_qna",
         "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the default placeholders for the popular tokens to be dynamically updated based on market trends, or should they remain static?\", \"option1\": \"Dynamically update based on market trends\", \"option2\": \"Remain static with predefined popular tokens\"}, {\"question 2\": \"How many default token options would you like to present in the dropdown?\", \"option1\": \"A limited set of top 5 popular tokens\", \"option2\": \"A more extensive set of top 20 popular tokens\"}], \"input_token_count\": 345, \"output_token_count\": 117, \"time_taken\": \"0:00:03.737678\"}",
         "message_id": "guest20082024190657",
