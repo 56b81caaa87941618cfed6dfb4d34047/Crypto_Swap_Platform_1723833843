@@ -22,8 +22,13 @@ Vue.component("blank_component_1724180203", {
             <h2 class="text-xl font-semibold mb-4">Deposit</h2>
             <form>
                 <div class="mb-4">
-                    <label for="depositAsset" class="block text-sm font-medium">Asset Address</label>
-                    <input type="text" id="depositAsset" class="w-full p-2 rounded bg-purple-700 border border-purple-600 focus:outline-none" placeholder="ETH: 0x..., USDC: 0x..., DAI: 0x...">
+                    <label for="depositAsset" class="block text-sm font-medium">Asset</label>
+                    <select id="depositAsset" class="w-full p-2 rounded bg-purple-700 border border-purple-600 focus:outline-none">
+                        <option value="0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE">ETH</option>
+                        <option value="0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48">USDC</option>
+                        <option value="0x6B175474E89094C44Da98b954EedeAC495271d0F">DAI</option>
+                        <option value="0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599">WBTC</option>
+                    </select>
                 </div>
                 <div class="mb-4">
                     <label for="depositAmount" class="block text-sm font-medium">Amount</label>
@@ -42,8 +47,13 @@ Vue.component("blank_component_1724180203", {
             <h2 class="text-xl font-semibold mb-4">Withdraw</h2>
             <form>
                 <div class="mb-4">
-                    <label for="withdrawAsset" class="block text-sm font-medium">Asset Address</label>
-                    <input type="text" id="withdrawAsset" class="w-full p-2 rounded bg-purple-700 border border-purple-600 focus:outline-none" placeholder="ETH: 0x..., USDC: 0x..., DAI: 0x...">
+                    <label for="withdrawAsset" class="block text-sm font-medium">Asset</label>
+                    <select id="withdrawAsset" class="w-full p-2 rounded bg-purple-700 border border-purple-600 focus:outline-none">
+                        <option value="0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE">ETH</option>
+                        <option value="0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48">USDC</option>
+                        <option value="0x6B175474E89094C44Da98b954EedeAC495271d0F">DAI</option>
+                        <option value="0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599">WBTC</option>
+                    </select>
                 </div>
                 <div class="mb-4">
                     <label for="withdrawAmount" class="block text-sm font-medium">Amount</label>
@@ -58,8 +68,13 @@ Vue.component("blank_component_1724180203", {
             <h2 class="text-xl font-semibold mb-4">Borrow</h2>
             <form>
                 <div class="mb-4">
-                    <label for="borrowAsset" class="block text-sm font-medium">Asset Address</label>
-                    <input type="text" id="borrowAsset" class="w-full p-2 rounded bg-purple-700 border border-purple-600 focus:outline-none" placeholder="ETH: 0x..., USDC: 0x..., DAI: 0x...">
+                    <label for="borrowAsset" class="block text-sm font-medium">Asset</label>
+                    <select id="borrowAsset" class="w-full p-2 rounded bg-purple-700 border border-purple-600 focus:outline-none">
+                        <option value="0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE">ETH</option>
+                        <option value="0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48">USDC</option>
+                        <option value="0x6B175474E89094C44Da98b954EedeAC495271d0F">DAI</option>
+                        <option value="0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599">WBTC</option>
+                    </select>
                 </div>
                 <div class="mb-4">
                     <label for="borrowAmount" class="block text-sm font-medium">Amount</label>
@@ -85,9 +100,14 @@ Vue.component("blank_component_1724180203", {
             <h2 class="text-xl font-semibold mb-4">Repay</h2>
             <form>
                 <div class="mb-4">
-                    <label for="repayAsset" class="block text-sm font-medium">Asset Address</label>
-                    <input type="text" id="repayAsset" class="w-full p-2 rounded bg-purple-700 border border-purple-600 focus:outline-none" placeholder="ETH: 0x..., USDC: 0x..., DAI: 0x...">
-
+                    <label for="repayAsset" class="block text-sm font-medium">Asset</label>
+                    <select id="repayAsset" class="w-full p-2 rounded bg-purple-700 border border-purple-600 focus:outline-none">
+                        <option value="0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE">ETH</option>
+                        <option value="0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48">USDC</option>
+                        <option value="0x6B175474E89094C44Da98b954EedeAC495271d0F">DAI</option>
+                        <option value="0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599">WBTC</option>
+                    </select>
+                </div>
     `,
     data() {
         return {
