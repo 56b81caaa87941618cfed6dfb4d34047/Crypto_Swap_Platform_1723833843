@@ -54,5 +54,11 @@
         "content": "replace asset address inputs with default placeholders for popular tokens via a dropdown",
         "timestamp": "20082024190657",
         "message_id": "guest20082024190657"
+    },
+    {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the default placeholders for the popular tokens to be dynamically updated based on market trends, or should they remain static?\", \"option1\": \"Dynamically update based on market trends\", \"option2\": \"Remain static with predefined popular tokens\"}, {\"question 2\": \"How many default token options would you like to present in the dropdown?\", \"option1\": \"A limited set of top 5 popular tokens\", \"option2\": \"A more extensive set of top 20 popular tokens\"}], \"input_token_count\": 345, \"output_token_count\": 117, \"time_taken\": \"0:00:03.737678\"}",
+        "timestamp": "20082024190702",
+        "message_id": "guest20082024190657"
     }
 ]
