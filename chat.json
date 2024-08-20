@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_acknowledge",
+        "content": "Will implement default placeholders for popular token addresses.",
+        "message_id": "guest20082024190607",
+        "timestamp": "20082024190608",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "replace asset address inputs with default placeholders for popular tokens",
         "message_id": "guest20082024190607",
