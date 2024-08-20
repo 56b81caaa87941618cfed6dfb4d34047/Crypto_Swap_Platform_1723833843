@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the placeholders for the asset addresses to include a specific set of cryptocurrencies, or should we prioritize the most popular tokens by market capitalization?\", \"option1\": \"Include a specific set of cryptocurrencies\", \"option2\": \"Prioritize the most popular tokens by market capitalization\"}, {\"question 2\": \"For the default placeholders, do you prefer to display just the token symbol (e.g., BTC, ETH), or should we also include the full name of the cryptocurrencies?\", \"option1\": \"Display just the token symbol\", \"option2\": \"Include the full name of the cryptocurrencies\"}], \"input_token_count\": 331, \"output_token_count\": 136, \"time_taken\": \"0:00:02.900315\"}",
+        "message_id": "guest20082024190607",
+        "timestamp": "20082024190612",
+        "component_file_name": "blank_component_1724180203",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Will implement default placeholders for popular token addresses.",
         "message_id": "guest20082024190607",
